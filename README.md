@@ -20,9 +20,9 @@ Consider the sentence "Hello world". If the sentence is made available to a tran
 
 ## Example
 
-<img src="./example.svg" title="" alt="Embedding trajectories when reading sentences left-to-right." width="431">
+<img title="" src="./example.svg" alt="Embedding trajectories when reading sentences left-to-right." width="431" data-align="center">
 
-This plot was generated with [hypertools](https://hypertools.readthedocs.io/en/latest/index.html). We took a [sentence transformer](https://www.sbert.net/#) and used it to produce trajectories in embedding space by unmasking sentences incrementally, one character at a time.
+This plot was generated with [hypertools](https://hypertools.readthedocs.io/en/latest/index.html). We took a [sentence transformer](https://www.sbert.net/#) and used it to produce trajectories in embedding space by unmasking sentences incrementally, one character at a time. The question is whether it is feasible to train an RNN to follow trajectories like these and generalize from them.
 
 ## (Preliminary) Results
 

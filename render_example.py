@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 import numpy as np
 import hypertools as hyp
 
-model = SentenceTransformer('all-MiniLM-L6-v2')
+model = SentenceTransformer('all-mpnet-base-v2')
 
 sentences = ['This framework generates embeddings for each input sentence',
              'Sentences are passed as a list of string.',
