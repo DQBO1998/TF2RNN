@@ -18,4 +18,7 @@ Transformers are easier to train, but RNNs are cheaper to deploy. So, what if we
 
 Consider the sentence "Hello world". If the sentence is made available to a transformer sequentially, it produces an embedding for each incomplete stage. For instance, "Hello wor" results in an intermediate embedding, "Hello worl" in another, and "Hello world" in the final embedding. [Text Embeddings Reveal (Almost) As Much As Text](https://arxiv.org/abs/2310.06816) shows that these embeddings are sufficient to reconstruct the original sequence, up to a certain length. After a certain length, some details begin to get lost. These embeddings are doing what an RNN's recurrent state is supposed to do. Hypothetically, one could train RNNs to work as transition functions between intermediate embeddings. If we already have the right embeddings, then there is no need to back-propagate through time. So, training the RNN should not be any more difficult than training a typical multilayer perceptron (MLP).
 
-## Results
+
+
+## Example
+![Embedding trajectories when reading sentences left-to-right.](./example.svg)
