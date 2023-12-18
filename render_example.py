@@ -7,6 +7,7 @@ import hypertools as hyp
 model = SentenceTransformer('all-mpnet-base-v2')
 
 sentences = ['This framework generates embeddings for each input sentence',
+             'For every input sentence, there exists an embedding.',
              'Sentences are passed as a list of string.',
              'The quick brown fox jumps over the lazy dog.']
 
